@@ -1,0 +1,7 @@
+.navbar {
+  height: 48px;
+  background-color: gray;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
