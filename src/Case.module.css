@@ -55,11 +55,11 @@
   content: ' ';
   display: block;
   width: 1px;
-  background-color: black;
+  background-color: lightgray;
   margin-left: auto;
   margin-right: auto;
   height: 100%;
-  transition: all 300ms ease-out;
+  transition: all 200ms ease-out;
 }
 .handle:hover::after,
 .isResizing::after {
