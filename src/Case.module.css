@@ -49,6 +49,13 @@
 
 .handle {
   cursor: ew-resize !important;
+  width: 16px !important;
+}
+.handleRight {
+  right: -8px !important;
+}
+.handleLeft {
+  left: -8px !important;
 }
 
 .handle::after {
@@ -63,6 +70,6 @@
 }
 .handle:hover::after,
 .isResizing::after {
-  transform: scaleX(300%);
+  transform: scaleX(500%);
   background-color: blue;
 }
